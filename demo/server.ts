@@ -3,6 +3,8 @@ import express from 'express';
 import path from 'path';
 import payload from '../src';
 
+console.log('got here');
+debugger; // eslint-disable-line no-debugger
 const expressApp = express();
 
 expressApp.use('/static', express.static(path.resolve(__dirname, 'client/static')));

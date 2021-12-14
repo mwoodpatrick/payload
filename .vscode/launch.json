@@ -11,7 +11,8 @@
       "runtimeArgs": [
         "--inspect-brk",
         "${workspaceRoot}/node_modules/.bin/jest",
-        "--runInBand"
+        "--runInBand",
+        "--detectOpenHandles"
       ],
       "env": {
         "PAYLOAD_CONFIG_PATH": "demo/payload.config.ts"
